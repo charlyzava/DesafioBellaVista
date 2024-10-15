@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Menú */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+nav .logo img {
+    height: 50px;
+}
+
+nav .menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav .menu li {
+    display: inline;
+}
+
+nav .menu li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Carrousel */
+.carousel {
+    display: flex;
+    overflow: auto;
+    padding: 20px 0;
+}
+
+.carousel-item {
+    min-width: 100%;
+    height: 300px;
+    background-color: #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+
+/* Fotos con botones */
+.fotos {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.foto {
+    text-align: center;
+}
+
+.foto img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.foto button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.foto button:hover {
+    background-color: #555;
+}
+
+/* Logos con hipervínculos */
+.logos {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.logo-item {
+    text-align: center;
+}
+
+.logo-item img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+
+.logo-item p {
+    margin-top: 10px;
+}
+
+/* Carrousel de logos de empresas */
+.carousel-logos {
+    display: flex;
+    overflow: auto;
+    padding: 20px 0;
+    gap: 20px;
+}
+
+.carousel-logos .carousel-item {
+    min-width: 150px;
+    height: 100px;
+    background-color: #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer .footer-menu {
+    margin-bottom: 10px;
+}
+
+footer .footer-menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+footer .footer-menu ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer .footer-logos a {
+    margin: 0 10px;
+}
+
+footer .footer-logos img {
+    width: 30px;
+    height: 30px;
+}
